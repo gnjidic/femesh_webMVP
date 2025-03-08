@@ -30,7 +30,7 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-3xl font-medium tracking-tighter sm:text-5xl"
-          text="FEMesh is a SaaS for FEA simulations"
+          text="FEMesh is a SaaS for FEA simulations, built by Damjan"
         />
       </motion.div>
 
