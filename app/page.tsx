@@ -3,7 +3,6 @@
 import { toast } from "sonner";
 import { useState } from "react";
 import CTA from "@/components/cta";
-import Form from "@/components/form";
 import Particles from "@/components/ui/particles"
 import Footer from "@/components/footer";
 
@@ -118,15 +117,6 @@ export default function Home() {
         handleSubmit={handleSubmit}
         loading={loading}
       />
-
-        <Form
-          name={name}
-          email={email}
-          handleNameChange={handleNameChange}
-          handleEmailChange={handleEmailChange}
-          handleSubmit={handleSubmit}
-          loading={loading}
-        />
 
       </section>
 
