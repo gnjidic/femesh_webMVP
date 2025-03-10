@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 const FigtreeFont = Figtree({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FEMesh",
+  title: "FEmesh",
   description:
     "FEMesh is SaaS for FEA simulations",
 };

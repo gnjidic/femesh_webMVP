@@ -5,6 +5,8 @@ import { useState } from "react";
 import CTA from "@/components/cta";
 import Particles from "@/components/ui/particles"
 import Footer from "@/components/footer";
+import Pricing from "@/components/pricing";
+import Workflow from "@/components/workflow";
 
 export default function Home() {
   const [name, setName] = useState<string>("");
@@ -120,6 +122,8 @@ export default function Home() {
 
       </section>
 
+      <Workflow />  
+      <Pricing />  
       <Footer />  
 
       <Particles
