@@ -27,13 +27,13 @@ export default function CTA({
 }: FormProps) {
   return (
     <motion.div
-      className="flex w-full max-w-4xl items-center justify-between gap-8"
+      className="flex w-full max-w-4xl items-center justify-between gap-8 flex-wrap lg:flex-nowrap"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       {/* Left Side: Content & Form */}
-      <div className="flex w-1/2 flex-col gap-4">
+      <div className="flex w-full lg:w-1/2 flex-col gap-4">
         <motion.div variants={itemVariants}>
           <div className="flex items-center justify-center">
             <div className="flex w-fit items-center justify-center rounded-full bg-muted/80 text-center">
@@ -118,7 +118,7 @@ export default function CTA({
       </div>
 
       {/* Right Side: Image */}
-      <motion.div variants={itemVariants} className="w-1/2">
+      <motion.div variants={itemVariants} className="w-full lg:w-1/2">
         <img src="/fea.png" alt="FEA Simulation" className="w-full h-auto rounded-lg shadow-lg" />
       </motion.div>
     </motion.div>
