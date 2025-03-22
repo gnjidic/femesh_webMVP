@@ -9,7 +9,7 @@ const FigtreeFont = Figtree({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "FEmesh",
   description:
-    "FEMesh is SaaS for FEA simulations",
+    "FEmesh is SaaS for FEA simulations",
 };
 
 export default function RootLayout({

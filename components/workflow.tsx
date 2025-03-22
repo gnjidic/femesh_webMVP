@@ -4,12 +4,12 @@ import Image from "next/image";
 
 export default function Workflow() {
   return (
-    <section className="py-16 px-6 flex flex-col items-center">
-      <h2 className="text-3xl font-bold text-white mb-12">How It Works</h2>
+    <section className="pt-32 px-6 flex flex-col items-center">
+      <h2 className="text-3xl font-bold text-white mb-12">Workflow in 4 Simple Steps:</h2>
       <div className="max-w-5xl w-full flex flex-col space-y-16 relative">
         {/* Step 1 */}
         <div className="grid grid-cols-2 gap-8 items-center">
-          <Image src="/fea.png" alt="Step 1" width={1000} height={1000} className="rounded-xl shadow-lg" />
+          <Image src="/22.png" alt="Step 1" width={500} height={500} className="rounded-xl shadow-lg" />
           <div />
         </div>
 
@@ -25,7 +25,7 @@ export default function Workflow() {
         {/* Step 2 */}
         <div className="grid grid-cols-2 gap-8 items-center">
           <div />
-          <Image src="/fea.png" alt="Step 2" width={1000} height={1000} className="rounded-xl shadow-lg" />
+          <Image src="/33.png" alt="Step 2" width={800} height={800} className="rounded-xl shadow-lg" />
         </div>
 
         {/* Arrow 2 */}
@@ -38,7 +38,7 @@ export default function Workflow() {
 
         {/* Step 3 */}
         <div className="grid grid-cols-2 gap-8 items-center">
-          <Image src="/fea.png" alt="Step 3" width={1000} height={1000} className="rounded-xl shadow-lg" />
+          <Image src="/44.png" alt="Step 3" width={800} height={800} className="rounded-xl shadow-lg" />
           <div />
         </div>
 
@@ -53,7 +53,7 @@ export default function Workflow() {
         {/* Step 4 */}
         <div className="grid grid-cols-2 gap-8 items-center">
           <div />
-          <Image src="/fea.png" alt="Step 4" width={1000} height={1000} className="rounded-xl shadow-lg" />
+          <Image src="/55.png" alt="Step 4" width={800} height={800} className="rounded-xl shadow-lg" />
         </div>
       </div>
     </section>
