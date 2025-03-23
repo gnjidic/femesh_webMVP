@@ -20,8 +20,7 @@ export default function Pricing() {
 
   return (
     <section className="flex flex-col items-center px-4 sm:px-6 lg:px-8 py-12">
-      <h2 className="text-3xl font-bold text-white mb-6">Pricing Plans</h2>
-
+    <h2 className="text-3xl font-bold text-white mb-6 pt-18">Pricing Plans</h2>
       {/* Custom Toggle Switch */}
       <div className="flex items-center gap-4 mb-8">
         <span className="text-gray-400">Monthly</span>
