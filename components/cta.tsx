@@ -4,7 +4,7 @@ import AnimatedShinyText from "@/components/ui/shimmer-text";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import Link from "next/link";
 import { ChangeEvent } from "react";
-import { FaGithub, FaXTwitter, FaArrowRightLong, FaLinkedin } from "react-icons/fa6";
+import { FaArrowRightLong, FaLinkedin } from "react-icons/fa6";
 import { Input } from "@/components/ui/input";
 import { EnhancedButton } from "@/components/ui/enhanced-btn";
 
@@ -61,7 +61,7 @@ export default function CTA({
         <motion.div variants={itemVariants}>
           <TextBlur
             className="mx-auto max-w-[30rem] pt-1.5 text-center text-base text-zinc-300 sm:text-lg"
-            text="Upload your STEP file in Browser, define the fluid domain, assign boundaries and generate a high-quality mesh!"
+            text="Effortless CAD cleanup and high-quality meshing—power your CAE simulations with FEmesh in just a few clicks."
             duration={0.8}
           />
         </motion.div>

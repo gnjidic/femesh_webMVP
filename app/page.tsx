@@ -3,7 +3,6 @@
 import { toast } from "sonner";
 import { useState } from "react";
 import CTA from "@/components/cta";
-import Particles from "@/components/ui/particles"
 import Footer from "@/components/footer";
 import Pricing from "@/components/pricing";
 import Workflow from "@/components/workflow";
@@ -125,14 +124,6 @@ export default function Home() {
       <Workflow />  
       <Pricing />  
       <Footer />  
-
-      <Particles
-        quantityDesktop={1050}
-        quantityMobile={500}
-        ease={80}
-        color={"#cfffff"}
-        refresh
-      />
     </main>
   );
 }

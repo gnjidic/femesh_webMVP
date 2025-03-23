@@ -29,12 +29,8 @@ export default function RootLayout({
       />
       <meta
         property="og:url"
-        content="https://nextjs-notion-waitlist.vercel.app/"
+        content="https://www.femesh.com/"
       />
-      <meta name="twitter:image" content="/twitter-image.png" />
-      <meta name="twitter:image:type" content="image/png" />
-      <meta name="twitter:image:width" content="1280" />
-      <meta name="twitter:image:height" content="832" />
       <body className={FigtreeFont.className}>
         {children}
         <Toaster richColors position="top-center" />
